@@ -4,7 +4,7 @@
   "description": "\"Movie API with GraphQL\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "homepage": "https://github.com/imtherealk/movieql#readme",
   "dependencies": {
     "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
   }
 }
