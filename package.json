@@ -19,8 +19,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.8.1",
-    "graphql-yoga": "^1.18.3",
-    "node-fetch": "^2.6.1"
+    "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
